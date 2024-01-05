@@ -11,16 +11,37 @@ Fine-tuned the pretrained [GPT2](https://huggingface.co/gpt2) model
 
 
 [Performances](./results/MG01)：
-<!-- ![Local Image](./results/MG01/eval_extraction_15000.png) -->
+<br> extraction  2500: <br>
+![Local Image](./results/MG01/eval_extraction_2500.png)
+<br> extraction 15000: <br>
+![Local Image](./results/MG01/eval_extraction_15000.png)
+<br> inference: <br>
+![Local Image](./results/MG01/eval_inference.png)
 
 ### MG02: 
 [Configuration](./MG02/MG02_config.yml): undefended model trained on 100% of the original dataset<br>
 
 
 [Performances](./results/MG02)：
+<br> extraction  2500: <br>
+![Local Image](./results/MG02/eval_extraction_2500.png)
+<br> extraction 15000: <br>
+![Local Image](./results/MG02/eval_extraction_15000.png)
+<br> inference: <br>
+![Local Image](./results/MG02/eval_inference.png)
 
 ### MG03: 
 [Configuration](./MG03/MG03_config.yml): dp-8 model trained on 100% of the original dataset<br>
 
 
 [Performances](./results/MG03)：
+<br> extraction  2500: <br>
+![Local Image](./results/MG03/eval_extraction_2500.png)
+<br> extraction 15000: <br>
+![Local Image](./results/MG03/eval_extraction_15000.png)
+<br> inference: <br>
+![Local Image](./results/MG03/eval_inference.png)
+
+
+## BERT:
+Fine-tuned the pretrained Bert model
