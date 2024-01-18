@@ -1,0 +1,55 @@
+{
+  "builder_name": "echr",
+  "citation": "",
+  "config_name": "undefended",
+  "dataset_name": "echr",
+  "dataset_size": 103506991,
+  "description": "A custom wrapper for the ECHR dataset.",
+  "download_checksums": {},
+  "download_size": 0,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 103506991,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 46366222,
+      "num_examples": 35448,
+      "dataset_name": "echr"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 10410049,
+      "num_examples": 7877,
+      "dataset_name": "echr"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 46730720,
+      "num_examples": 35449,
+      "dataset_name": "echr"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
